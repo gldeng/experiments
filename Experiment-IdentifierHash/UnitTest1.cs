@@ -17,52 +17,52 @@ public class UnitTest1
 {
     private static readonly string TestData = """
                                               [
-                                                {
-                                                        "salt": "6489b951119243958d720c41a810f448",
-                                                        "id": "01",
-                                                        "id_hash": "a7db603681b8bde93a66659828384aa8cb52153b019bfea38787b71528effbfa"
-                                                      },
-                                                      {
-                                                        "salt": "6b8bd0f79eed4f59b726e73f6347aedf",
-                                                        "id": "01010101010101010101",
-                                                        "id_hash": "360ee45c0542ce37ce41ebb80d9d37da73c5809eff776ffc9b405e1100b5faaa"
-                                                      },
-                                                      {
-                                                        "salt": "40a9189ceb144077a13212f32c735cdd",
-                                                        "id": "57708cf9161c05230812",
-                                                        "id_hash": "63cd07d664789477c019a4a2d250ffb6369438ff12306d9d0b56cccc01c1d85b"
-                                                      },
-                                                      {
-                                                        "salt": "8567e9fc305c45f4a229aa14040e9307",
-                                                        "id": "555778ee2330ef2440d2a427b1aa2b6176824dd08901626372f7cb1b0eb2d2957a41bfee5225fb26b7769ba5d2eaef2e0a152b03bece584887e83b55706cf1f93fa2f08f15d7ced816d16479993ecd32f1108f4198deaa1f881ba127e8360bcda34ebab3",
-                                                        "id_hash": "303bd060cd9ba4d81e4f4bf18298e2b6fa7a619a7288ff92a8ef6bab137ab237"
-                                                      },
-                                                      {
-                                                        "salt": "06814ece436f4d718421f07e903b39c9",
-                                                        "id": "271ca8adb8fd2c21984a6a01edd86a7c3e4db6c38b211271484d604418007e263972eba25cd434e2bea579d372909bf6f907358b848b06bf02bfef048a6ee257d31da4768db622b7883e11330bcbc4107a39f21f052cbb177d2baccea78a22364997b774d4ba44c414d3c15fc142ac2fd69ae64c02cd96ac2af8e2bb4903d1d582f825dd2ff2a9e6cfc592532e38e9987059c0714cc58f21340366f77085946875a2da8c5b05c0d609f67d12ed05139e1338b8a46b0e98bdc3cbbcaadd16e98cffe55825dd05ac86",
-                                                        "id_hash": "6d18fe337b862f9c4b63f71c09c28bc857d615a025f8588fac5ba31ac9851f5b"
-                                                      },
-                                                      {
-                                                        "salt": "81d96d0c1f9f4ea1a9965f4a627d1750",
-                                                        "id": "01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
-                                                        "id_hash": "6660692fd00d8a99380472ca0398d8190b4cddc2a242ef5fe02f70f890f925b4"
-                                                      },
-                                                      {
-                                                        "salt": "ebe24272bdab44ff9120bb954a437d84",
-                                                        "id": "010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
-                                                        "id_hash": "02bb2784b3b7c526529ed77d80f02f888cd4d079c07ca541e11321a6d7114ed3"
-                                                      },
-                                                      {
-                                                        "salt": "653b9686fee8416081409bde09b9567b",
-                                                        "id": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
-                                                        "id_hash": "500272442e69408142c1c35a714adefc361634128429dd2e12a84694ebbd643a"
-                                                      },
-                                                      {
-                                                        "salt": "8bd20240b5b0420a9b90d58c8d8b1688",
-                                                        "id": "ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
-                                                        "id_hash": "6dcbff9e82d5a57ad2f76fd660d6eea6c68a9b0a48081448b1992536be8a2381"
-                                                      }
-                                                    ]
+                                                  {
+                                                    "salt": "8a7e44fa4a244e28a65ed89962997c41",
+                                                    "id": "01",
+                                                    "id_hash": "ac379499210dc4af65b537bd5deed7033d664cb2b55965105e8ad68fadb13456"
+                                                  },
+                                                  {
+                                                    "salt": "4d9860e98de047db9276ff931604cd7c",
+                                                    "id": "01010101010101010101",
+                                                    "id_hash": "50f26c542a3a50493f1472955fc5cf9c16a867bc4ab6afc1d03b75846371321f"
+                                                  },
+                                                  {
+                                                    "salt": "8d1fca931514443ea5072cc8ee8faf2d",
+                                                    "id": "4233507b287e2b835780",
+                                                    "id_hash": "87912cfddc3353ec8536a20e755ae450e7215a925c81c8891dede7901a32a7ed"
+                                                  },
+                                                  {
+                                                    "salt": "77dce9fe8d84429096e6f1f172c2b97c",
+                                                    "id": "7fd5533ca87a57ac0da5fd604b841fe06dd929540c44f5f47368169cce6b5dc502e18fec90be231d3e02f7b18ad2da97dbfca12818ec6e7c29930d8fa5975dbeb2f0c6fd15f13823b0bbe11798fa2e4096b3c6032d4eedc2aa8dc49d239d6995fa9d771a",
+                                                    "id_hash": "2ead0814fbfa6721ef056f3fd96d52163538673acf27a65054b3b09b34b97f2c"
+                                                  },
+                                                  {
+                                                    "salt": "05805842933f45ef9e804c2a95a976fc",
+                                                    "id": "aad5c0309b1ad8c563ef68de647fa72e6be6b88c526ad68591ade1c44dfabc87b69bc20bb89119802f1fcf12312f1013860b373a6859d30a5b5b16232adbb7f6e2d64938fa6672312d25397e9dbcc33d9951091cde0d4028b561ad98546d7222ae41fe3176a156d3668477c058e41b49ecc6d79681e7185f81ee081a24d084dbde0b53d0494717c88b7b3b76e07835f2682cdc4e1a535df73ced86afbfd82242dd773dade2ef9ec67c3716bc0af4085346423e02364723480f45a17c6b7db1316828a89783f1bbd9",
+                                                    "id_hash": "c795eb18ab37cc62610a1ef19a7baaad66434d8ff4683dce32f77e955f7aa58e"
+                                                  },
+                                                  {
+                                                    "salt": "0cfea7956cc74c40a70dc1199e0a7993",
+                                                    "id": "01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+                                                    "id_hash": "c2c0537318f399bb32f4707fe2b236683a5f406a87c4353165012b1bdad470e4"
+                                                  },
+                                                  {
+                                                    "salt": "777340696bde4886a9c757f647c627e0",
+                                                    "id": "010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+                                                    "id_hash": "aeb59c96587c606bd29f628b4551c5d2dd50fb38bdda3aec24aabab7a156a322"
+                                                  },
+                                                  {
+                                                    "salt": "ae6dc66bc98b48b5b1ba3c7dd5c015ed",
+                                                    "id": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+                                                    "id_hash": "ea6c869ff338f90b08c60d34b877b1177b8d20f34b30d594e602265c63fe7d69"
+                                                  },
+                                                  {
+                                                    "salt": "daf184c7fd6442d3bcfa76fea08c533c",
+                                                    "id": "ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+                                                    "id_hash": "2cb1dee4f430856a38e521f423c2aed9e02260cce87efb596458a9009a16388d"
+                                                  }
+                                                ]
                                               """;
 
     public static byte[] PadByteArrayToLength(byte[] originalArray, int targetLength)
@@ -75,8 +75,8 @@ public class UnitTest1
 
     public byte[] CalculateIdentifierHash(byte[] identifier, byte[] salt)
     {
-        var hash1 = Sha256(PadByteArrayToLength(identifier, 256));
-        var hash2 = Sha256(PadByteArrayToLength(salt, 16).Concat(hash1).ToArray());
+        var hash1 = Sha256(identifier);
+        var hash2 = Sha256(hash1.Concat(salt).ToArray());
         return hash2;
     }
 
